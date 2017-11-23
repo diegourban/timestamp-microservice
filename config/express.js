@@ -2,12 +2,12 @@ var express = require('express');
 var consign = require('consign');
 
 module.exports = function() {
-    var app = express();
+  var app = express();
 
-    consign({cwd: 'lib'})
-    .include('api.js')
-    .then('route.js')
-    .into(app);
+  consign({cwd: 'lib'})
+  .include('api.js')
+  .then('route.js')
+  .into(app);
 
-    return app;
+  return app;
 }

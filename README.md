@@ -18,6 +18,7 @@ User Stories:
 
 ## Example Usage
 `http://host:port/December%2015,%202015` - natural language
+
 `http://host:port/1450137600` - unix timestamp
 
 ## Example Output

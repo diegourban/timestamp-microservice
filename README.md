@@ -17,7 +17,7 @@ User Stories:
 `npm start` - to start the server
 
 ## Example Usage
-`http://host:port/December%2015,%202015` - natural language
+`http://host:port/December 15, 2015` - natural language
 
 `http://host:port/1450137600` - unix timestamp
 
